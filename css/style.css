@@ -30,40 +30,29 @@
 /*encabezado */
 .header {
   background-color: #f8f9fa;
-  /* Cambia el color de fondo del encabezado según tu preferencia */
-  padding: 10px 0;
-  /* Ajusta el relleno del encabezado según sea necesario */ }
+  padding: 10px 0; }
 
 /*barra de navegación */
 .navbar {
-  padding-left: 0;
-  /* Elimina el relleno izquierdo predeterminado de Bootstrap */ }
+  padding-left: 0; }
 
 .navbar-brand {
   color: #212529;
-  /* Cambia el color del texto del logotipo */
   font-size: 1.5rem;
-  /* Ajusta el tamaño del texto del logotipo */
-  font-weight: bold;
-  /* Aplica negrita al texto del logotipo */ }
+  font-weight: bold; }
 
 .navbar-brand:hover {
-  color: #212529;
-  /* Cambia el color del texto al pasar el ratón sobre el logotipo */ }
+  color: #212529; }
 
 .nav-link {
   color: #212529;
-  /* Cambia el color del texto de los enlaces del menú */
-  font-size: 1.2rem;
-  /* Ajusta el tamaño del texto de los enlaces del menú */ }
+  font-size: 1.2rem; }
 
 .nav-link:hover {
-  color: #007bff;
-  /* Cambia el color del texto al pasar el ratón sobre los enlaces del menú */ }
+  color: #007bff; }
 
 .dropdown-menu {
-  background-color: #f8f9fa;
-  /* Cambia el color de fondo del menú desplegable */ }
+  background-color: #f8f9fa; }
 
 .navegacion {
   display: grid; }
