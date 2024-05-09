@@ -1,4 +1,213 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css");
+.grandiente-horizontal {
+  background-image: linear-gradient(); }
+
+@media (max-width: 768px) {
+  body {
+    background-color: lightblue; }
+  .container {
+    width: 90%; } }
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .container {
+    width: 80%; } }
+
+@media (min-width: 768px) {
+  body {
+    background-color: #c5c5c5; }
+  .container {
+    width: 80%; } }
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: roboto-regular-italic "Roboto", sans-serif; }
+
+/*encabezado */
+.header {
+  background-color: #f8f9fa;
+  /* Cambia el color de fondo del encabezado según tu preferencia */
+  padding: 10px 0;
+  /* Ajusta el relleno del encabezado según sea necesario */ }
+
+/*barra de navegación */
+.navbar {
+  padding-left: 0;
+  /* Elimina el relleno izquierdo predeterminado de Bootstrap */ }
+
+.navbar-brand {
+  color: #212529;
+  /* Cambia el color del texto del logotipo */
+  font-size: 1.5rem;
+  /* Ajusta el tamaño del texto del logotipo */
+  font-weight: bold;
+  /* Aplica negrita al texto del logotipo */ }
+
+.navbar-brand:hover {
+  color: #212529;
+  /* Cambia el color del texto al pasar el ratón sobre el logotipo */ }
+
+.nav-link {
+  color: #212529;
+  /* Cambia el color del texto de los enlaces del menú */
+  font-size: 1.2rem;
+  /* Ajusta el tamaño del texto de los enlaces del menú */ }
+
+.nav-link:hover {
+  color: #007bff;
+  /* Cambia el color del texto al pasar el ratón sobre los enlaces del menú */ }
+
+.dropdown-menu {
+  background-color: #f8f9fa;
+  /* Cambia el color de fondo del menú desplegable */ }
+
+.navegacion {
+  display: grid; }
+
+.wapp {
+  background-color: green;
+  padding: 15px;
+  border-radius: 15px;
+  position: fixed;
+  top: 90%;
+  right: 50px; }
+
+.destacados {
+  border: #463F3A solid 3px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  background-color: #888584; }
+  .destacados div {
+    border: #e7e1df solid 3px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #e0afa0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    .destacados div img {
+      width: 150px;
+      justify-items: stretch;
+      border-radius: 10px; }
+    .destacados div p {
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+
+.button,
+.vermas {
+  padding: 5px 15px;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: #463F3A;
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  .button:hover,
+  .vermas:hover {
+    font-weight: bold;
+    padding: 20px;
+    background-color: #E0AFA0;
+    color: #f4f3ee; }
+
+.carousel slide carousel-fade {
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  transition: transform 1s ease-in-out; }
+
+.active {
+  opacity: 1; }
+
+.navbar.bg-body-tertiary {
+  background-color: #D3D3D3; }
+
+.wapp {
+  background-color: green;
+  padding: 15px;
+  border-radius: 15px;
+  position: fixed;
+  top: 90%;
+  right: 50px; }
+
+main h1 {
+  text-align: center; }
+
+main .producto-orden {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; }
+  main .producto-orden div img {
+    width: 100%;
+    border-radius: 10px; }
+
+.wapp {
+  background-color: green;
+  padding: 15px;
+  border-radius: 15px;
+  position: fixed;
+  top: 90%;
+  right: 50px; }
+
+.navbar.bg-body-tertiary {
+  background-color: #D3D3D3; }
+
+.texto-con-imagen {
+  padding: 100px;
+  color: #ffffff;
+  background-image: url(/resources/typo/nosoortas.jpg);
+  font-size: 20px;
+  background-size: cover;
+  background-position: center;
+  text-align: center; }
+
+@keyframes slide {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(100px); } }
+  .texto-con-imagen .imagen-con-animacion {
+    animation: slide 2s ease infinite; }
+
+h1.container {
+  text-align: center; }
+
+.container .rows {
+  display: flex;
+  justify-content: space-between; }
+
+.bg-dark-subtle {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  width: 48%; }
+
+#micaela {
+  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif; }
+
+h2 {
+  color: #E0AFA0;
+  text-align: center; }

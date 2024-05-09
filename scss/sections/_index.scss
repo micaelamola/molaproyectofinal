@@ -1,0 +1,93 @@
+// navegación
+.navegacion {
+  display: grid;
+}
+
+// botón de WhatsApp
+.wapp {
+  background-color: green;
+  padding: 15px;
+  border-radius: 15px;
+  position: fixed;
+  top: 90%;
+  right: 50px;
+}
+
+// productos destacados
+.destacados {
+  border: #463F3A solid 3px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  background-color: #888584;
+
+  div {
+    border: #e7e1df solid 3px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #e0afa0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    img {
+      width: 150px;
+      justify-items: stretch;
+      border-radius: 10px;
+    }
+
+    p {
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+//botones en general
+.button,
+.vermas {
+  padding: 5px 15px;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: #463F3A;
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  &:hover {
+    font-weight: bold;
+    padding: 20px;
+    background-color: #E0AFA0;
+    color: #f4f3ee;
+  }
+}
+
+// carrusel
+.carousel slide carousel-fade{
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  transition: transform 1s ease-in-out; 
+  }
+  .active {
+    opacity: 1; 
+  }
+
+
