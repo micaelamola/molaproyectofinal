@@ -15,22 +15,23 @@
 
 // productos destacados
 .destacados {
-  border: #463F3A solid 3px;
+  color: $color2;
+  border:  solid 3px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-items: center;
   justify-content: center;
-  background-color: #888584;
+  background-color: $color4;
 
   div {
-    border: #e7e1df solid 3px;
+
     margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    background-color: #e0afa0;
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     img {
@@ -54,15 +55,15 @@
   padding: 5px 15px;
   margin: 15px;
   border-radius: 15px;
-  background-color: #463F3A;
-  color: #ffffff;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:$product-btn-bg;
+  color: $product-btn-color;
+  font-family: $fuente-secundaria;
 
   &:hover {
     font-weight: bold;
     padding: 20px;
-    background-color: #E0AFA0;
-    color: #f4f3ee;
+    background-color:  $color3;
+    color: $color4;
   }
 }
 

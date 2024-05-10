@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
     body {
-      background-color: lightblue;
+      background-color: whitesmoke;
     }
   
     .container {
@@ -14,7 +14,7 @@
   }
   @media (min-width: 768px) {
     body {
-      background-color: rgb(197, 197, 197);
+      background-color: $color1;
     }
   
     .container {

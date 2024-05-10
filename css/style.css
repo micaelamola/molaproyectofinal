@@ -7,7 +7,7 @@
 
 @media (max-width: 768px) {
   body {
-    background-color: lightblue; }
+    background-color: whitesmoke; }
   .container {
     width: 90%; } }
 
@@ -17,7 +17,7 @@
 
 @media (min-width: 768px) {
   body {
-    background-color: #c5c5c5; }
+    background-color: #fff5ee; }
   .container {
     width: 80%; } }
 
@@ -66,21 +66,20 @@
   right: 50px; }
 
 .destacados {
-  border: #463F3A solid 3px;
+  color: #A49966;
+  border: solid 3px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-items: center;
   justify-content: center;
-  background-color: #888584; }
+  background-color: #363020; }
   .destacados div {
-    border: #e7e1df solid 3px;
     margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    background-color: #e0afa0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
     .destacados div img {
       width: 150px;
@@ -97,15 +96,15 @@
   padding: 5px 15px;
   margin: 15px;
   border-radius: 15px;
-  background-color: #463F3A;
-  color: #ffffff;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  background-color: #47342e;
+  color: white;
+  font-family: roboto-regular-italic "Roboto", sans-serif; }
   .button:hover,
   .vermas:hover {
     font-weight: bold;
     padding: 20px;
-    background-color: #E0AFA0;
-    color: #f4f3ee; }
+    background-color: #605C4E;
+    color: #363020; }
 
 .carousel slide carousel-fade {
   display: flex;
@@ -130,7 +129,7 @@
   opacity: 1; }
 
 .navbar.bg-body-tertiary {
-  background-color: #D3D3D3; }
+  background-color: #A49966; }
 
 .wapp {
   background-color: green;
@@ -150,6 +149,28 @@ main .producto-orden {
   main .producto-orden div img {
     width: 100%;
     border-radius: 10px; }
+
+.product-btn {
+  padding: 5px 15px;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: #463F3A;
+  color: #ffffff;
+  font-family: roboto-regular-italic "Roboto", sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh .product-btn; }
+  .product-btn :hover {
+    background-color: #ffffff; }
 
 .wapp {
   background-color: green;
