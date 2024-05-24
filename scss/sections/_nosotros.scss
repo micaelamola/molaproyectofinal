@@ -4,7 +4,7 @@
 // Estilos específicos para la navegación
 .navbar {
   &.bg-body-tertiary {
-    background-color: #D3D3D3; // Cambiar según tus necesidades
+    background-color:$color3; 
   }
 }
 
@@ -43,7 +43,7 @@ h1.container {
 
 // columnas
 .bg-dark-subtle {
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color:$color3(0, 0, 0, 0.5); 
   padding: 20px;
   margin-top: 20px;
   text-align: center;
@@ -59,6 +59,19 @@ h1.container {
 
 // Estilos adicionales
 h2 {
-  color: #E0AFA0;
+  color:$color3;
   text-align: center;
+}
+
+a {
+  color:$color4(0, 0, 0);
+  text-decoration: none; 
+}
+
+a:hover {
+  color:$color2;
+}
+.mapa {
+  border-radius: 20px;
+  justify-content: center;
 }

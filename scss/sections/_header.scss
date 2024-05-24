@@ -1,6 +1,6 @@
 /*encabezado */
 .header {
-    background-color: #f8f9fa;
+    background-color: $body;
     padding: 10px 0; 
   }
   
@@ -10,25 +10,27 @@
   }
   
   .navbar-brand {
-    color: #212529;
+    color:$body;
     font-size: 1.5rem; 
     font-weight: bold; 
   }
-  
+  .nav-link.active{
+    color:$color3; 
+  }
   .navbar-brand:hover {
-    color: #212529; 
+    color:$color3; 
   }
   
   .nav-link {
-    color: #212529; 
+    color:$color2; 
     font-size: 1.2rem; 
   }
   
   .nav-link:hover {
-    color: #007bff;
+    color: $color3;
   }
   
   .dropdown-menu {
-    background-color: #f8f9fa;
+    background-color: $color2;
   }
   

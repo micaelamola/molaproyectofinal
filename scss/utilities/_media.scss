@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
     body {
-      background-color: whitesmoke;
+      background-color: $body;
     }
   
     .container {
@@ -14,10 +14,29 @@
   }
   @media (min-width: 768px) {
     body {
-      background-color: $color1;
+      background-color: $body;
     }
   
-    .container {
+    .mediosdepago {
       width: 80%;
     }
   }
+  @media (min-width: 426px) {
+    body {
+      background-color: $body;
+    }
+  
+    .derechos {
+      width: 80%;
+    }
+  }
+  @media (min-width: 426px) {
+    body {
+      background-color: $body;
+    }
+  
+    .destacados {
+      width: 80%;
+    }
+  }
+ 
